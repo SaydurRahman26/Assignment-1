@@ -60,3 +60,36 @@ nav{
     font-size: 65px;
     margin-bottom: 37px;
 }
+.second-part{
+    width: 1140px;
+    height: 328px;
+    display: flex;
+    gap: 220px;
+    justify-content: center;
+    align-items: center;
+    margin: 116px 159px 116px 141px;
+}
+.title-3{
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 23px;
+}
+.description{
+    font-weight: 24px;
+    color: #25243286;
+}
+.second-image{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+    border: none;
+}
+.btn-2{
+    width: 229px;
+    height: 48px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 22px;
+}
