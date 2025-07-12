@@ -64,8 +64,7 @@ nav{
     width: 1140px;
     height: 328px;
     display: flex;
-    gap: 220px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: 116px 159px 116px 141px;
 }
@@ -81,6 +80,7 @@ nav{
 .second-image{
     width: 403px;
     height: 328px;
+    align-items: center;
     border-radius: 48px;
     border: none;
 }
@@ -92,4 +92,233 @@ nav{
     border-radius: 10px;
     border: none;
     margin-top: 22px;
+}
+
+
+.users{
+    width: 1140px;
+    height: 340px;
+    background-color: whitesmoke;
+    margin: 116px 159px 137px 141px;
+    text-align: center;
+}
+
+.users-count{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 142px;
+}
+.uc{
+    font-size: 80px;
+    font-weight: bold;
+    color: blue;
+
+}
+.uc-title{
+    padding-top: 50px;
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+.users-status{
+    color: #0000008d;
+}
+
+
+/*what our users say*/
+.comments-box{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.comments{
+    width: 1140px;
+    height: 342px;
+    text-align: left;
+    margin: 50px 149px 137px 151px;
+    background-color: white
+}
+.cmnts-heading{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 42px;
+    font-weight: bold;
+}
+.card{
+    width: 366px;
+    height: 243px;
+    border-radius: 14px;
+    border: none;
+    box-shadow: 1px 1px 1px gray;
+    background-color: whitesmoke;
+    padding: 24px;
+}
+.comments-box .card .reviewer{
+    display: flex;
+}
+.card img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.card .reviewer{
+    margin-top: 30px;
+}
+.stars{
+    margin-bottom: 24px;
+}
+.designers{
+    font-weight: 600px;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.user-comments{
+    color: rgba(0, 0, 0, 0.804);
+    padding-bottom:  24px;
+}
+
+
+
+.get-free{
+    width: 1140px;
+    height: 696px;
+    text-align: center;
+    background-color:whitesmoke;
+    margin: 137px 149px 92px 151px;
+
+}
+.third-image{
+    width: 840px;
+    height: 364px;
+    border-radius: 48px;
+    margin-top: ;
+}
+.btn-3{
+    width: 195px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    margin: 20px 146px;
+}
+.title-4{
+    font-weight: bold;
+    font-size: 50px;
+    padding: 71px 0px 20px 0px;
+}
+
+
+
+form .user-form label{
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600px;
+
+}
+.user-input{
+    width: 1140px;
+    height: 632px;
+    background-color: whitesmoke;
+    margin: 92px 150px 14px 150px;
+    text-align: center;
+}
+
+.user-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.title-5{
+    font-size: 90px;
+    font-weight: bold;
+    width: 528px;
+    height: 232px;
+    padding: 200px 0px 200px 0px;
+}
+
+.form{
+    width: 612px;
+    height: 490px;
+    justify-items: center;
+    padding: 71px 0px 71px 0px;
+    text-align: left;
+   
+   
+}
+
+.input{
+    width: 612px;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 0px 15px;
+}
+.textarea{
+    height: 167px;
+}
+.message{
+    width: 612px;
+    height: 135px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 0px 15px;
+    color: rgba(0, 0, 0, 0.499);
+}
+.btn-4{
+    width: 612px;
+    height: 62px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    font-weight: 400px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 19px;
+}
+.btn-4:hover{
+    color: red;
+    background-color: rgba(7, 7, 81, 0.763);
+}
+
+/*footer part*/
+
+.footer-part{
+    width: 1480px;
+    height: 428px;
+    justify-items: center;
+    align-content: center;
+}
+
+.footer{
+    width: 531px;
+    height: 221px;
+    justify-items: center;
+    text-align: center;
+    
+}
+.options ul{
+    display: flex;
+    gap:40px;
+    list-style: none;
+}
+.options ul a{
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 100px;
+    font-weight: 800;
+    color: blue;
+    margin-bottom: 8px;
+}
+.logo-description{
+    color: #8987A1;
+    margin-bottom: 20px;
 }
