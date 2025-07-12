@@ -31,7 +31,7 @@ nav{
 .nav a .btn{
     text-decoration: none;
 }
-.btn{
+.btn-signup{
     background-color: blue;
     color: white;
     width: 132px;
@@ -41,13 +41,22 @@ nav{
     border-radius:16px;
     border: none;
 }
-.btn-2{
+.btn-signup:hover{
+    color: red;
+    background-color: rgba(7, 7, 81, 0.763);
+}
+
+.btn-1{
     width: 174px;
     height: 48px;
     background-color: blue;
     color: white;
     border-radius: 16px;
     border: none;
+}
+.btn-1:hover{
+    color: red;
+    background-color: rgba(7, 7, 81, 0.763);
 }
  .container{
     text-align: center;
@@ -92,6 +101,11 @@ nav{
     border-radius: 10px;
     border: none;
     margin-top: 22px;
+}
+
+.btn-2:hover{
+    color: red;
+    background-color: rgba(7, 7, 81, 0.763);
 }
 
 
@@ -202,6 +216,12 @@ nav{
     color: white;
     margin: 20px 146px;
 }
+
+.btn-3:hover{
+    color: red;
+    background-color: rgba(7, 7, 81, 0.763);
+}
+
 .title-4{
     font-weight: bold;
     font-size: 50px;
